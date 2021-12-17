@@ -18,3 +18,5 @@ def register(request):
             submitted = True
     return render(request, 'register.html', {"form":form, "submitted":submitted})
 
+
+
